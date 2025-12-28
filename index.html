@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound of Honour Global Ministry</title>
+    
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== VIDEO HERO SECTION ===== -->
+    <section class="video-hero" id="home">
+        <video autoplay muted loop playsinline class="video-background">
+            <source src="upload/videos/page-background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="video-overlay"></div>
+        
+        <!-- Header -->
+        <header class="site-header" id="siteHeader">
+            <div class="header-container">
+                <a href="#home" class="logo">
+                    <img src="upload/images/logo.jpeg" alt="Sound of Honour Logo" class="logo-img">
+                    <div class="logo-text">Sound of Honour <span>Global Ministry</span></div>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+                    <a href="#about" class="nav-link"><i class="fas fa-church"></i> About</a>
+                    <a href="#ministry" class="nav-link"><i class="fas fa-hands-praying"></i> Ministry</a>
+                    <a href="#services" class="nav-link"><i class="fas fa-guitar"></i> Services</a>
+                    <a href="#events" class="nav-link"><i class="fas fa-calendar-alt"></i> Events</a>
+                    <a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Gallery</a>
+                    <a href="#donate" class="nav-link"><i class="fas fa-hand-holding-heart"></i> Donate</a>
+                </nav>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <nav class="mobile-nav">
+                <a href="#home" class="mobile-nav-link active"><i class="fas fa-home"></i> Home</a>
+                <a href="#about" class="mobile-nav-link"><i class="fas fa-church"></i> About</a>
+                <a href="#ministry" class="mobile-nav-link"><i class="fas fa-hands-praying"></i> Ministry</a>
+                <a href="#services" class="mobile-nav-link"><i class="fas fa-guitar"></i> Services</a>
+                <a href="#events" class="mobile-nav-link"><i class="fas fa-calendar-alt"></i> Events</a>
+                <a href="#gallery" class="mobile-nav-link"><i class="fas fa-images"></i> Gallery</a>
+                <a href="#donate" class="mobile-nav-link"><i class="fas fa-hand-holding-heart"></i> Donate</a>
+            </nav>
+        </header>
+        
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">Sound of Honour Global Ministry</h1>
+            <p class="hero-subtitle">Spreading the Gospel Through Worship, Prayer, Music Training, Production, and Compassionate Action Since 2019</p>
+            <div class="hero-buttons">
+                <a href="#ministry" class="btn btn-primary"><i class="fas fa-play-circle"></i> Our Ministry</a>
+                <a href="#donate" class="btn btn-secondary"><i class="fas fa-heart"></i> Support Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TABS SECTION ===== -->
+    <div class="tabs-section" id="ministry">
+        <h2 class="section-title">Our Ministry Areas</h2>
+        
+        <div class="tabs-header">
+            <button class="tab-btn active" data-tab="worship"><i class="fas fa-music"></i> Worship</button>
+            <button class="tab-btn" data-tab="outreach"><i class="fas fa-hands-helping"></i> Outreach</button>
+            <button class="tab-btn" data-tab="prayer"><i class="fas fa-pray"></i> Prayer Ministry</button>
+            <button class="tab-btn" data-tab="community"><i class="fas fa-users"></i> Community</button>
+        </div>
+        
+        <div class="tab-content active" id="worship">
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="upload/images/sunday-worship.jpg" alt="Sunday Service" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Sunday Worship Service</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Weekly Service</span>
+                        <h3 class="card-title">Sunday Worship Experience</h3>
+                        <p class="card-text">Join us every Sunday for powerful worship, sound teaching, and fellowship. Experience God's presence in our vibrant worship services.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Every Sunday 12pm</span>
+                            <button class="card-btn" onclick="alert('Sunday Service Details: Every Sunday at 9 AM')">Join Us</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/worship-team.jpg" alt="Worship Team" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Worship Team</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Music Ministry</span>
+                        <h3 class="card-title">Anointed Worship Team</h3>
+                        <p class="card-text">Our dedicated worship team leads heartfelt praise and worship, creating an atmosphere for God's presence to manifest.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Practice: Wednesdays</span>
+                            <button class="card-btn" onclick="alert('Contact us to join the worship team!')">Join Team</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/worship-nights.jpg" alt="Special Events" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Special Worship Nights</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Special Events</span>
+                        <h3 class="card-title">Monthly Worship Nights</h3>
+                        <p class="card-text">Experience extended worship, prayer, and ministry on our special worship nights held monthly.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Last Friday Monthly</span>
+                            <button class="card-btn" onclick="showEventDetails()">View Events</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="outreach">
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="upload/images/street-evangelism.jpg" alt="Street Evangelism" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Street Evangelism</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Outreach</span>
+                        <h3 class="card-title">Street Ministry</h3>
+                        <p class="card-text">Taking the Gospel to the streets through evangelism, prayer, and sharing God's love with communities.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Saturdays 10 AM</span>
+                            <button class="card-btn" onclick="alert('Street Evangelism every Saturday at 10 AM')">Join Outreach</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/feeding-program.jpg" alt="Feeding Program" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Feeding Program</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Community Support</span>
+                        <h3 class="card-title">Food Distribution</h3>
+                        <p class="card-text">Providing meals and essential supplies to families in need through our weekly feeding program.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Every Thursday</span>
+                            <button class="card-btn" onclick="donateViaPayPal('feeding')">Donate Food</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/youth-ministry.jpg" alt="Youth Outreach" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Youth Ministry</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Youth Program</span>
+                        <h3 class="card-title">Youth Empowerment</h3>
+                        <p class="card-text">Engaging and empowering young people through mentorship, training, and spiritual guidance.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Fridays 5 PM</span>
+                            <button class="card-btn" onclick="alert('Youth meetings every Friday at 5 PM')">Youth Events</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="prayer">
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="upload/images/prayer-meeting.jpg" alt="Prayer Meeting" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Prayer Meetings</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Prayer Ministry</span>
+                        <h3 class="card-title">Weekly Prayer Gathering</h3>
+                        <p class="card-text">Join our dedicated prayer warriors for intercessory prayer every Wednesday evening.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Wednesdays 7 PM</span>
+                            <button class="card-btn" onclick="alert('Prayer Meeting every Wednesday at 7 PM')">Join Prayer</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/all-night-prayer.jpg" alt="All Night Prayer" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">All Night Prayer</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Extended Prayer</span>
+                        <h3 class="card-title">Monthly All-Night Prayer</h3>
+                        <p class="card-text">Experience the power of extended prayer and worship during our monthly all-night prayer sessions.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Last Friday Monthly</span>
+                            <button class="card-btn" onclick="showEventDetails()">Pray With Us</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/prayer-requests.jpg" alt="Prayer Requests" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Prayer Requests</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Personal Prayer</span>
+                        <h3 class="card-title">Submit Prayer Request</h3>
+                        <p class="card-text">Share your prayer needs with our dedicated prayer team. We believe in the power of prayer!</p>
+                        <div class="card-footer">
+                            <span class="card-date">24/7 Prayer Support</span>
+                            <button class="card-btn" onclick="document.getElementById('prayerForm').scrollIntoView({behavior: 'smooth'})">Submit Request</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="community">
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="upload/images/community-support.jpg" alt="Community Support" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Community Support</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Social Services</span>
+                        <h3 class="card-title">Family Assistance Program</h3>
+                        <p class="card-text">Providing school fees, rent assistance, and basic needs for orphans and underprivileged families.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Ongoing Support</span>
+                            <button class="card-btn" onclick="donateViaPayPal('community')">Support Families</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/guidance-counselling.jpg" alt="Couples Ministry" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Couples Ministry</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Family Ministry</span>
+                        <h3 class="card-title">Marriage & Family Counseling</h3>
+                        <p class="card-text">Providing guidance, counseling, and mentorship for couples and young adults seeking godly direction.</p>
+                        <div class="card-footer">
+                            <span class="card-date">By Appointment</span>
+                            <button class="card-btn" onclick="contactWhatsApp('counseling')">Book Session</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="upload/images/bible-study-2.jpg" alt="Bible Study" class="card-img">
+                    <div class="card-overlay"><h3 class="gallery-title">Bible Study</h3></div>
+                    <div class="card-content">
+                        <span class="card-category">Discipleship</span>
+                        <h3 class="card-title">Weekly Bible Study Groups</h3>
+                        <p class="card-text">Growing together in God's Word through small group Bible studies and discipleship training.</p>
+                        <div class="card-footer">
+                            <span class="card-date">Tuesdays 6 PM</span>
+                            <button class="card-btn" onclick="alert('Bible Study every Tuesday at 6 PM')">Join Study</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="services" class="section">
+        <h2 class="section-title">Our Services: Music School & Production</h2>
+        <p style="text-align: center; color: #666; max-width: 800px; margin: 0 auto 40px; font-size: 1.1rem;">
+            Empowering the next generation of worship leaders through professional music training and gospel music production.
+        </p>
+        
+        <div class="mission-grid">
+            <div class="mission-card">
+                <div class="mission-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h4>Sound of Honour Music School</h4>
+                <p>Professional training in vocals, guitar, keyboard, drums, bass, and music theory. Classes for beginners to advanced, children and adults. Preparing anointed worship leaders for the body of Christ.</p>
+                <button class="card-btn" onclick="contactWhatsApp('music_school')">Enroll Now</button>
+            </div>
+            
+            <div class="mission-card">
+                <div class="mission-icon"><i class="fas fa-microphone-alt"></i></div>
+                <h4>Gospel Music Production</h4>
+                <p>Full-service recording studio for gospel artists and worship teams. Professional recording, mixing, mastering, and music video production to spread the sound of honour globally.</p>
+                <button class="card-btn" onclick="contactWhatsApp('production')">Book Studio</button>
+            </div>
+            
+            <div class="mission-card">
+                <div class="mission-icon"><i class="fas fa-music"></i></div>
+                <h4>Worship Workshops & Seminars</h4>
+                <p>Intensive workshops on worship leading, team building, songwriting, and spiritual preparation for ministry through music.</p>
+                <button class="card-btn" onclick="contactWhatsApp('workshops')">Register Interest</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">Our Ministry Journey</h2>
+            
+            <div class="founding-story">
+                <div class="story-content">
+                    <div class="story-text">
+                        <h3>Welcome to Sound of Honour Global Ministry</h3>
+                        <p>Founded in 2019 during the challenges of the COVID-19 pandemic, our ministry began with a calling to serve through door-to-door evangelism and feeding programs for children. Guided by God's vision, we discovered the power of music and worship as a tool for healing, encouragement, and spiritual growth.</p>
+                        <p>Today, we dedicate ourselves to Christian worship, community empowerment, music education, and gospel production. Through music, prayer, and compassionate action, we aim to uplift lives, strengthen faith, and bring hope to those in need.</p>
+                    </div>
+                    <div class="story-image">
+                        <img src="upload/images/ministry.jpg" alt="Ministry Gathering">
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">Our Mission Focus</h2>
+            
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-music"></i></div>
+                    <h4>Heartfelt Worship Experiences</h4>
+                    <p>Leading powerful worship services that connect people with God's presence and bring spiritual renewal</p>
+                </div>
+                
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-praying-hands"></i></div>
+                    <h4>Intercessory Prayer Ministry</h4>
+                    <p>Praying for individuals, families, and communities for breakthrough, healing, and divine intervention</p>
+                </div>
+                
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-hands-helping"></i></div>
+                    <h4>Community Support Programs</h4>
+                    <p>Providing school fees, rent assistance, and basic needs for orphans and the underprivileged</p>
+                </div>
+                
+                <div class="mission-card">
+                    <div class="mission-icon"><i class="fas fa-heart"></i></div>
+                    <h4>Guidance & Mentorship</h4>
+                    <p>Offering counseling and mentorship for couples and young adults seeking godly direction</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+            <h2 class="section-title">Ministry Gallery</h2>
+            <p style="text-align: center; color: #666; max-width: 800px; margin: 0 auto 40px; font-size: 1.1rem;">
+                Capturing moments of worship, outreach, prayer, music training, production, and transformation in our ministry journey.
+            </p>
+
+            <div class="gallery-carousel-container">
+                <div class="gallery-carousel-track" id="galleryTrack">
+                    <!-- 18+ images -->
+                    <div class="gallery-card">
+                        <img src="https://www.sj-r.com/gcdn/authoring/2009/01/14/NSJR/ghows-LS-fade294b-a90f-4e6a-af40-a442ddd489fd-3f08dac5.jpeg?width=660&height=440&fit=crop&format=pjpg&auto=webp" alt="Powerful Worship Service">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Powerful Worship Service</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://www.christchurchrockville.org/images/made/images/ministries/CEC-Choir3_633_401_s.jpg" alt="Congregation United">
+                        <div class="gallery-overlay"><h3 class="gallery-title">United in Song</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://www.religiousproductnews.com/wp-content/uploads/sites/3/2021/07/worship-team.jpg" alt="Worship Team">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Worship Team Ministry</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://drc0fhsrp02et.cloudfront.net/wp-content/uploads/2011/11/08123039/Band1.jpg" alt="Joyful Praise">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Joyful Praise</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://i0.wp.com/www.markcole.ca/wp-content/uploads/2023/07/STage-presence.jpeg?ssl=1" alt="Worship Band">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Worship Band Performance</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://media.istockphoto.com/id/847575018/photo/group-of-people-holding-hands-praying-worship-believe.jpg?s=612x612&w=0&k=20&c=hbklAfDraUwmVBE6X0DAOnc9uu_QAIIe4z3drqyM1LA=" alt="Prayer Group">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Praying Together</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://thumbs.dreamstime.com/b/group-christianity-people-praying-hope-together-group-christianity-people-praying-hope-together-99982288.jpg" alt="Prayer Gathering">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Prayer Gathering</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://ccschouston.org/wp-content/uploads/2023/07/Food-Fair2.jpg" alt="Feeding Outreach">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Feeding the Needy</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://media.kens5.com/assets/KENS/images/5ea18025-32f5-47b7-8c4c-8442e93270dc/20240815T034333/5ea18025-32f5-47b7-8c4c-8442e93270dc_1920x1080.jpg" alt="Serving Meals">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Serving with Love</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://www.learnreligions.com/thmb/ljJ1YakI3Ac2KX9jCDiZKUXqv2U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-91510711-59ac9dfcd088c00010a57e72.jpg" alt="Youth Study">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Youth Empowerment</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://www.learnreligions.com/thmb/arguEimEj1vq8vslcH-CGCMWJMs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bible-study-girls-641213340-157034b06e204dcf9d5328679d7cb3a4.jpg" alt="Teen Discipleship">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Teen Discipleship</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://i0.wp.com/s3.us-west-1.amazonaws.com/wp-thecripplegate.com/wp-content/uploads/2011/12/09093503/tee-shirt-not-necessary.jpg?ssl=1" alt="Street Evangelism">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Street Ministry</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://i.ytimg.com/vi/a4-b7RIEKbo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB3K05BUQYjvOYt_utDgvUfVhYH5Q" alt="All-Night Vigil">
+                        <div class="gallery-overlay"><h3 class="gallery-title">All-Night Vigil</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://www.thefocusedpastor.org/wp-content/uploads/2024/08/marriage-ministry-shutterstock-141036166-65de1f1f34a10.webp" alt="Couples Ministry">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Couples Ministry</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://www.lcsonline.org/wp-content/uploads/2023/02/lcs_students_112019_0300-2048x1366-1-1024x683.jpg" alt="Piano Lesson">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Music School Training</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://hcagh.com/wp-content/uploads/2017/09/MUSIC-1024x600.jpg" alt="Instrument Classes">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Instrument Classes</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://b2484492.smushcdn.com/2484492/wp-content/uploads/forminator/40006_faba02aeba3bbd1a0fe7df9d0d3f6e8f/uploads/SOspSZTq2fph-Sarah-Mayer-and-student-for-webpage.jpg?lossy=1&strip=1&webp=1" alt="Private Lesson">
+                        <div class="gallery-overlay"><h3 class="gallery-title">One-on-One Training</h3></div>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="https://res.cloudinary.com/soundbetter/image/upload/c_fill,f_auto,g_face:auto,h_288,q_70,w_540/v1640189601/assets/photos/140381/_MG_9560.jpg" alt="Recording Session">
+                        <div class="gallery-overlay"><h3 class="gallery-title">Studio Recording</h3></div>
+                    </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-gallery"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next-gallery"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Verses Section -->
+        <section class="section">
+            <div class="verses-section">
+                <h2 class="section-title" style="color: white;">Daily Inspiration</h2>
+                
+                <div class="verse-carousel">
+                    <div class="verse-slide active">
+                        <p class="verse-text">"I can do all things through Christ who strengthens me."</p>
+                        <p class="verse-reference">— Philippians 4:13</p>
+                    </div>
+                    
+                    <div class="verse-slide">
+                        <p class="verse-text">"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."</p>
+                        <p class="verse-reference">— John 3:16</p>
+                    </div>
+                    
+                    <div class="verse-slide">
+                        <p class="verse-text">"The Lord is my shepherd, I lack nothing. He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul."</p>
+                        <p class="verse-reference">— Psalm 23:1-3</p>
+                    </div>
+                    
+                    <div class="verse-slide">
+                        <p class="verse-text">"Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight."</p>
+                        <p class="verse-reference">— Proverbs 3:5-6</p>
+                    </div>
+                    
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Events Section -->
+        <section id="events" class="section">
+            <h2 class="section-title">Upcoming & Recurring Events</h2>
+            <p style="text-align: center; color: #666; max-width: 800px; margin: 0 auto 40px; font-size: 1.1rem;">
+                Join us for our weekly services, monthly specials, and ongoing ministry activities.
+            </p>
+            <div id="calendar"></div>
+        </section>
+        
+        <!-- Donation Section -->
+        <section id="donate" class="section">
+            <div class="donation-section">
+                <h2 class="section-title">Support Our Ministry</h2>
+                <p style="text-align: center; font-size: 1.2rem; color: #666; max-width: 800px; margin: 0 auto 40px;">
+                    Your generous giving fuels our evangelism crusades, worship events, and community outreach programs.
+                </p>
+                
+                <div class="donate-grid">
+                    <div class="donate-card">
+                        <div class="donate-icon"><i class="fas fa-church"></i></div>
+                        <h3>Offering</h3>
+                        <p>Support our weekly worship services, maintenance, and daily ministry operations</p>
+                        <button class="donate-btn" onclick="donateViaPayPal('tithe')"><i class="fab fa-paypal"></i> PayPal</button>
+                        <button class="donate-btn" onclick="donateViaMPesa('tithe')"><i class="fas fa-mobile-alt"></i> M-Pesa</button>
+                    </div>
+                    
+                    <div class="donate-card">
+                        <div class="donate-icon"><i class="fas fa-globe-africa"></i></div>
+                        <h3>Mission Projects</h3>
+                        <p>Fund evangelism crusades, church planting, and outreach in unreached communities</p>
+                        <button class="donate-btn" onclick="donateViaPayPal('missions')"><i class="fab fa-paypal"></i> PayPal</button>
+                        <button class="donate-btn" onclick="contactWhatsApp('missions')"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+                    </div>
+                    
+                    <div class="donate-card">
+                        <div class="donate-icon"><i class="fas fa-gift"></i></div>
+                        <h3>Community Support</h3>
+                        <p>Help provide food, education, and housing for orphans and underprivileged families</p>
+                        <button class="donate-btn" onclick="donateViaPayPal('community')"><i class="fab fa-paypal"></i> PayPal</button>
+                        <button class="donate-btn" onclick="contactWhatsApp('community')"><i class="fas fa-university"></i> Bank Transfer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Prayer Request Section -->
+        <section class="section" id="prayerSection">
+            <h2 class="section-title">Prayer Request</h2>
+            <div class="form-container">
+                <div class="form-card" id="prayerForm">
+                    <h3>Submit Your Prayer Request</h3>
+                    <form id="prayerFormElement">
+                        <div class="form-group">
+                            <input type="text" id="prayerName" placeholder="Your Name (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="prayerEmail" placeholder="Your Email (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="prayerPhone" placeholder="Your Phone Number (Optional)">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="prayerMessage" placeholder="Describe your prayer request..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn"><i class="fas fa-pray"></i> Send Prayer Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section class="section" id="contactSection">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="form-container">
+                <div class="form-card">
+                    <h3>Get In Touch</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sound of Honour Ministry</h4>
+                <p>Spreading the Gospel through worship, prayer, and compassionate action since 2019.</p>
+                <p>"Through music, prayer, and compassionate action, we aim to uplift lives, strengthen faith, and bring hope to those in need."</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Information</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Kamiti Rd, Kahawa West, Nairobi, Kenya</p>
+                <p><i class="fas fa-phone"></i> +254 711509194</p>
+                <p><i class="fas fa-envelope"></i> info@soundofhonour.org</p>
+                
+                <div class="social-links">
+                    <a href="https://facebook.com/soundofhonour" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/soundofhonour" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/soundofhonour" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/soundofhonour" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <p><a href="#ministry" style="color: white; text-decoration: none;">Ministry Areas</a></p>
+                <p><a href="#gallery" style="color: white; text-decoration: none;">Photo Gallery</a></p>
+                <p><a href="#events" style="color: white; text-decoration: none;">Upcoming Events</a></p>
+                <p><a href="#donate" style="color: white; text-decoration: none;">Support Our Work</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Sound of Honour Global Ministry. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+    <a href="https://wa.me/254711509194" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== BACK TO TOP BUTTON ===== -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script>
+
+    <script>
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+        const siteHeader = document.getElementById('siteHeader');
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                siteHeader.classList.add('scrolled');
+            } else {
+                siteHeader.classList.remove('scrolled');
+            }
+            if (window.scrollY > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        
+        mobileMenuToggle.addEventListener('click', function() {
+            mobileNav.classList.toggle('active');
+            const icon = this.querySelector('i');
+            if (mobileNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                    mobileNav.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+                navLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const tabId = this.getAttribute('data-tab');
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                this.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        let currentVerse = 0;
+        const verseSlides = document.querySelectorAll('.verse-slide');
+        const totalVerses = verseSlides.length;
+        
+        function showVerse(index) {
+            verseSlides.forEach(slide => slide.classList.remove('active'));
+            verseSlides[index].classList.add('active');
+        }
+        
+        document.querySelector('.next-btn').addEventListener('click', function() {
+            currentVerse = (currentVerse + 1) % totalVerses;
+            showVerse(currentVerse);
+        });
+        
+        document.querySelector('.prev-btn').addEventListener('click', function() {
+            currentVerse = (currentVerse - 1 + totalVerses) % totalVerses;
+            showVerse(currentVerse);
+        });
+        
+        setInterval(() => {
+            currentVerse = (currentVerse + 1) % totalVerses;
+            showVerse(currentVerse);
+        }, 8000);
+        
+        // Gallery Carousel - Horizontal sliding
+        let currentGallerySlide = 0;
+        const galleryTrack = document.getElementById('galleryTrack');
+        const galleryCards = document.querySelectorAll('.gallery-card');
+        const totalGallerySlides = galleryCards.length;
+        
+        function updateGallery() {
+            const offset = -currentGallerySlide * 100;
+            galleryTrack.style.transform = `translateX(${offset}%)`;
+        }
+        
+        document.querySelector('.next-gallery').addEventListener('click', () => {
+            currentGallerySlide = (currentGallerySlide + 1) % totalGallerySlides;
+            updateGallery();
+        });
+        
+        document.querySelector('.prev-gallery').addEventListener('click', () => {
+            currentGallerySlide = (currentGallerySlide - 1 + totalGallerySlides) % totalGallerySlides;
+            updateGallery();
+        });
+        
+        setInterval(() => {
+            currentGallerySlide = (currentGallerySlide + 1) % totalGallerySlides;
+            updateGallery();
+        }, 5000);
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Calendar
+        document.addEventListener('DOMContentLoaded', function() {
+            const calendarEl = document.getElementById('calendar');
+            if (calendarEl) {
+                const calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth',
+                    initialDate: '2025-12-28',
+                    headerToolbar: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                    },
+                    height: 'auto',
+                    events: [
+                        { title: 'Sunday Worship Service', rrule: { freq: 'weekly', byweekday: [0] }, color: '#00695c' },
+                        { title: 'Bible Study', rrule: { freq: 'weekly', byweekday: [1] }, color: '#388e3c' },
+                        { title: 'Midweek Prayer Meeting', rrule: { freq: 'weekly', byweekday: [2] }, color: '#1976d2' },
+                        { title: 'Youth Ministry', rrule: { freq: 'weekly', byweekday: [4] }, color: '#7b1fa2' },
+                        { title: 'Street Evangelism & Outreach', rrule: { freq: 'weekly', byweekday: [5] }, color: '#f57c00' },
+                        { title: 'Monthly Worship Night & All-Night Prayer', rrule: { freq: 'monthly', bymonthday: -1, byweekday: [4] }, color: '#d32f2f' },
+                        { title: 'New Year Prayer Vigil', start: '2026-01-01', color: '#ff9800' },
+                        { title: 'Community Feeding Program', start: '2026-01-04', color: '#009688' }
+                    ],
+                    eventClick: function(info) {
+                        alert('Event: ' + info.event.title + '\nDate: ' + (info.event.start ? info.event.start.toLocaleDateString() : 'Recurring Event'));
+                    }
+                });
+                calendar.render();
+            }
+        });
+        
+        // Prayer Form
+        document.getElementById('prayerFormElement').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('prayerName').value.trim() || 'Anonymous';
+            const email = document.getElementById('prayerEmail').value.trim();
+            const phone = document.getElementById('prayerPhone').value.trim();
+            const message = document.getElementById('prayerMessage').value.trim();
+            let text = `*Prayer Request*%0A%0A*Name:* ${name}%0A`;
+            if (email) text += `*Email:* ${email}%0A`;
+            if (phone) text += `*Phone:* ${phone}%0A`;
+            text += `%0A*Request:*%0A${message}%0A%0A_We are praying with you!_ ✝`;
+            window.open(`https://wa.me/254711509194?text=${text}`, '_blank');
+            alert('Your prayer request is being sent to WhatsApp. Thank you – we are praying for you!');
+            this.reset();
+        });
+        
+        // Contact Form
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('contactName').value.trim();
+            const email = document.getElementById('contactEmail').value.trim();
+            const message = document.getElementById('contactMessage').value.trim();
+            const text = `*Contact Message*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A%0A*Message:*%0A${message}%0A%0A_God bless you!_`;
+            window.open(`https://wa.me/254711509194?text=${text}`, '_blank');
+            alert('Your message is being sent to WhatsApp. We will reply soon!');
+            this.reset();
+        });
+        
+        function donateViaPayPal(type) {
+            const paypalUrls = {
+                'missions': 'https://www.paypal.com/donate/?hosted_button_id=MISSIONS123',
+                'community': 'https://www.paypal.com/donate/?hosted_button_id=COMMUNITY123',
+                'feeding': 'https://www.paypal.com/donate/?hosted_button_id=FEEDING123'
+            };
+            window.open(paypalUrls[type] || paypalUrls['missions'], '_blank');
+        }
+        
+        function donateViaMPesa(type) {
+            const text = `I want to donate for ${type} via M-Pesa`;
+            window.open(`https://wa.me/254711509194?text=${encodeURIComponent(text)}`, '_blank');
+        }
+        
+        function contactWhatsApp(purpose) {
+            const text = `Hello, I'm interested in ${purpose}. Please provide more details.`;
+            window.open(`https://wa.me/254711509194?text=${encodeURIComponent(text)}`, '_blank');
+        }
+        
+        function showEventDetails() {
+            alert('Monthly Worship Night: Last Friday of every month at 7 PM\nAll-Night Prayer: Last Friday monthly, 10 PM - 6 AM\nPlease check our calendar for upcoming dates.');
+        }
+        
+        // Active nav on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id], .tabs-section');
+            const scrollPosition = window.scrollY + 100;
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                const sectionId = section.getAttribute('id');
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+        
+        document.addEventListener('click', function(e) {
+            if (!mobileNav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                if (mobileNav.classList.contains('active')) {
+                    mobileNav.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            }
+        });
+        
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768 && mobileNav.classList.contains('active')) {
+                mobileNav.classList.remove('active');
+                const icon = mobileMenuToggle.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+    </script>
+</body>
+</html>
